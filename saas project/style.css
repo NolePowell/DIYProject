@@ -1,0 +1,156 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.my-element1 {
+    background-color: #83CBEB;
+}
+
+.my-element2 {
+    background-color: #156082;
+}
+
+.header-bar {
+    width: 100%;
+    padding: 10px;
+}
+
+.top-header-bar {
+    background-color: #156082;
+    top: 0px;
+}
+
+.bottom-header-bar {
+    background-color: #83CBEB;
+    top: 55px;
+}
+
+.footer-bar {
+    position: fixed;
+    left: 0;
+    width: 100%;
+    padding: 15px 0;
+}
+
+.top-footer-bar {
+    background-color: #83CBEB;
+    bottom: 50px;
+    color: black;
+}
+
+.bottom-footer-bar {
+    background-color: #156082;
+    bottom: 0;
+    color: black;
+}
+
+.bg-sky-blue {
+    background-color: #d1e4ed;
+}
+
+.custom-blue {
+    background-color: #83CBEB;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.bottom-rounded-corners {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.text-color {
+    color: rgb(102, 114, 135)
+}
+
+main {
+    flex-grow: 1;
+    overflow-y: auto;
+    width: 100%;
+}
+
+.padding {
+    padding-top: 1%;
+    padding-bottom: 15%;
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.h2-padding {
+    padding-top: 5%;
+    padding-bottom: 1%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+header,
+footer {
+    flex-shrink: 0;
+}
+
+.button-mid {
+    display: flex;
+    justify-content: center;
+    margin-left: 700px;
+    color: aliceblue;
+}
+
+.text-color-white {
+    color: white;
+}
+
+
+.header-bar {
+    width: 100%;
+    padding: 10px;
+    background-color: #156082;
+    top: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left-content {
+    display: flex;
+    align-items: left;
+}
+
+.center-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.right-content {
+    display: flex;
+    align-items: right;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    background-size: cover;
+}
+
+.fa-oil-well,
+.login-link,
+.register-link {
+    color: white;
+}
+
+.login-link,
+.register-link {
+    text-decoration: none;
+    margin-left: 10px;
+}
